@@ -5,7 +5,7 @@ var logger = log4js.getLogger();
 //const { express } = require("express")
 
 //const app = express()
-const bot = new Telegraf("1737603973:AAGKTsXPZFRsOyry5VzgqgYHZwADzYFRhQs")
+const bot = new Telegraf(process.env.TELEGRAF_KEY)
 const port = 3000
 const decisions = ["Да", "Нет"]
 

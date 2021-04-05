@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "log4js": "^6.3.0",
+    "newrelic": "^7.2.1",
     "telegraf": "^4.3.0"
   }
 }
