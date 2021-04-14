@@ -1,0 +1,11 @@
+---
+application:
+  name: "answer-bot"
+  project: "binary-decision-bot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-answer-bot"
+  routes:
+  - application_name: "answer-bot"
+    paths:
+    - "/*"
