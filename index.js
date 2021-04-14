@@ -2,9 +2,9 @@ const { Telegraf } = require("telegraf")
 require('newrelic')
 var log4js = require('log4js');
 var logger = log4js.getLogger();
-const express = require('express')
+//const express = require('express')
 
-const app = express()
+//const app = express()
 const bot = new Telegraf(process.env.TELEGRAF_KEY)
 const port = 3000
 const decisions = ["Да", "Нет"]
@@ -31,6 +31,6 @@ function getDecision(){
 bot.launch()
 
 
-app.listen(port, () => {
+/*app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
-})
+})*/
