@@ -2,7 +2,7 @@ const { Telegraf } = require("telegraf")
 require('newrelic')
 var log4js = require('log4js');
 var logger = log4js.getLogger();
-const { express } = require("express")
+const express = require('express')
 
 const app = express()
 const bot = new Telegraf(process.env.TELEGRAF_KEY)
